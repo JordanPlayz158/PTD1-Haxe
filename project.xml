@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project
+    xmlns="http://lime.software/project/1.0.3"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://lime.software/project/1.0.3 http://lime.software/xsd/project-1.0.3.xsd">
+    	
+	<meta title="PTD1" package="code" version="1.0.0" company="Company" />
+	<app main="code.Main" path="Export" file="PTD1" />
+	
+	<source path="src" />
+	
+	<haxelib name="swf" />
+	<haxelib name="openfl" />
+	
+	<library id="ptd1" path="PTD1.swf" preload="true" />
+	<!-- Contains assets.zip -->
+	<assets path="assets" />
+</project>

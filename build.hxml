@@ -1,0 +1,4 @@
+-cp src
+-lib openfl
+-main code.Main
+-js bin/js/main.js
