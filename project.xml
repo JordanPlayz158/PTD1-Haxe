@@ -12,7 +12,7 @@
 	<haxelib name="swf" />
 	<haxelib name="openfl" />
 	
-	<library id="ptd1" path="PTD1.swf" preload="true" />
+	<library id="ptd1" path="PTD1.swf" preload="true" generate="true" />
 	<!-- Contains assets.zip -->
-	<assets path="assets" />
+	<!--<assets path="assets" />-->
 </project>

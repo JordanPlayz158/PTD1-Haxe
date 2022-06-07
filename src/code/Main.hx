@@ -1,5 +1,6 @@
 package code;
 
+import swf.exporters.animate.AnimateLibrary;
 import openfl.utils.Assets;
 import lime.tools.AssetType;
 import openfl.utils.AssetLibrary;
@@ -34,6 +35,10 @@ class Main extends _Obj {
     @:allow(code) var var_616:Int = 0;
 
     public function new() {
+        for(k => v in Assets.getLibraryBindings()) {
+            Assets.initBinding(k, null);
+        }
+
         super(null);
         this.sponsor = this.method_359();
         this.method_369();
@@ -41,20 +46,42 @@ class Main extends _Obj {
         this.var_213 = new Class_876(this);
         this.sawDisclamer = true;
         addChildAt(this.var_213, 0);
-        trace(lime.utils.Assets.list());
 
-        var temp = new Gfx_Level_1();
-        trace("Gfx_Level_1 Object: " + temp);
-        trace("Is Gfx_Level_1 Object enabled? " + temp.enabled);
-        trace("Is Gfx_Level_1 Object playing? " + temp.isPlaying);
-        trace("Gfx_Level_1 Object's LoaderInfo: " + temp.loaderInfo);
-        trace("Gfx_Level_1 Object's Name: " + temp.name);
-        trace("Gfx_Level_1 Object's Root: " + temp.root);
-        trace("Gfx_Level_1 Object's ToString Function: " + temp.toString());
-        trace("Is Gfx_Level_1 Object visible? " + temp.visible);
-        addChild(temp);
+        //var temp = cast(getChildAt(0), GfxMovieClip);
+        //printSpriteDetails(temp);
+        
+        //trace(Assets.cache);
+        //trace(Assets.getLibraryBindings());
+        //for(k => v in Assets.getLibraryBindings()) {
+        //    trace(k + ":" + v);
+        //}
+        //var bitmap = new Bitmap(Assets.getBitmapData("ptd1:7166"));
+        //addChild(bitmap);
+        //printSpriteDetails(bitmap);
+    }
 
-        addChild(new Bitmap(Assets.getBitmapData("symbols/7166.png")));
+    function printSpriteDetails(movieClip:DisplayObject) {
+        var object = Type.getClassName(Type.getClass(movieClip));
+        trace("----------------------------------------------------------------");
+        trace('$object Object: ' + movieClip);
+
+        try {
+            var castMovieClip = cast(movieClip, GfxMovieClip);
+            trace('Is $object Object enabled? ' + castMovieClip.enabled);
+            trace('Is $object Object playing? ' + castMovieClip.isPlaying);
+            trace('$object Object\'s Graphics: ' + castMovieClip.graphics);
+        } catch(ignored) {}
+
+        trace('$object Object\'s LoaderInfo: ' + movieClip.loaderInfo);
+
+        if(movieClip.loaderInfo != null) {
+            trace('$object Object\'s LoaderInfo\'s URL: ' + movieClip.loaderInfo.loader);
+        }
+
+        trace('$object Object\'s Name: ' + movieClip.name);
+        trace('$object Object\'s Root: ' + movieClip.root);
+        trace('$object Object\'s ToString Function: ' + movieClip.toString());
+        trace('Is $object Object visible? ' + movieClip.visible);
     }
 
     @:allow(code) function method_359():String {
