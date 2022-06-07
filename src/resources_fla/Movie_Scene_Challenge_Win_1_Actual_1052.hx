@@ -8,7 +8,7 @@ import openfl.*;
 import compat.*;
 
 
-/*dynamic*/ class Movie_Scene_Challenge_Win_1_actual_1052 extends GfxMovieClip {
+/*dynamic*/ class Movie_Scene_Challenge_Win_1_Actual_1052 extends GfxMovieClip {
 
 
     public var butt_end:GfxMovieClip;

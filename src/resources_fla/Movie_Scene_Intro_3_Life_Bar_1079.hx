@@ -8,7 +8,7 @@ import openfl.*;
 import compat.*;
 
 
-/*dynamic*/ class Movie_Scene_Intro_3_life_bar_1079 extends GfxMovieClip {
+/*dynamic*/ class Movie_Scene_Intro_3_Life_Bar_1079 extends GfxMovieClip {
 
 
     public function new() {

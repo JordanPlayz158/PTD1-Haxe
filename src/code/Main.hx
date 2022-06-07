@@ -237,12 +237,17 @@ class Main extends _Obj {
 
     public function new() {
         for(k in Assets.getLibraryBindings().keys()) {
-            trace("Binding " + k);
-            var kClass = Type.createInstance(Type.resolveClass(k), null);
-            trace("\n  :: Type of Class - " + Type.getSuperClass(Type.getClass(kClass)));
-            trace("\n  :: Class of Sprite - " + kClass);
-            Assets.initBinding(k, kClass);
-            trace(k + " Successfully bound");
+            //trace("Binding " + k);
+
+            try {
+                var kClass = Type.createInstance(Type.resolveClass(k), null);
+                //trace("\n  :: Type of Class - " + Type.getSuperClass(Type.getClass(kClass)));
+                //trace("\n  :: Class of Sprite - " + kClass);
+                Assets.initBinding(k, kClass);
+                //trace(k + " Successfully bound");
+            } catch (ignored) {
+                trace("Binding for " + k + " failed");
+            }
         }
 
         super(null);
@@ -251,7 +256,8 @@ class Main extends _Obj {
         this.method_377();
         this.var_213 = new Class_876(this);
         this.sawDisclamer = true;
-        addChildAt(this.var_213, 0);        
+        addChildAt(this.var_213, 0);
+        trace("Main reached end of initialization");
     }
 
     function printSpriteDetails(movieClip:DisplayObject) {

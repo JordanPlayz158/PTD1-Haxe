@@ -8,7 +8,7 @@ import openfl.*;
 import compat.*;
 
 
-/*dynamic*/ class Movie_Scene_Intro_7_metapod_ani_1114 extends GfxMovieClip {
+/*dynamic*/ class Movie_Scene_Intro_7_Metapod_Ani_1114 extends GfxMovieClip {
 
 
     public function new() {
