@@ -16,7 +16,7 @@ import compat.*;
         addFrameScript(16, this.frame17);
     }
 
-    @:allow(levelMovieScene_fla) function frame17():ASAny {
+    @:allow(levelMovieScene_fla) function frame17() {
         gotoAndPlay("front");
     }
 }

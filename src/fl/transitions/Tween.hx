@@ -242,7 +242,7 @@ class Tween extends EventDispatcher {
 
     public function nextFrame() {
         if (this.useSeconds) {
-            this.time = (flash.Lib.getTimer() - this._startTime) / 1000;
+            this.time = (Lib.getTimer() - this._startTime) / 1000;
         }
         else {
             this.time = this._time + 1;
@@ -266,7 +266,7 @@ class Tween extends EventDispatcher {
 
     function fixTime() {
         if (this.useSeconds) {
-            this._startTime = flash.Lib.getTimer() - this._time * 1000;
+            this._startTime = Lib.getTimer() - this._time * 1000;
         }
     }
 

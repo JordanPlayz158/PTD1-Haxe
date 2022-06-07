@@ -18,12 +18,12 @@ import flash.net.URLRequest;
         addFrameScript(0, this.frame1);
     }
 
-    public function clck(param1:MouseEvent):ASAny {
+    public function clck(param1:MouseEvent) {
         var _loc3_ = new URLRequest("http://www.freeworldgroup.com");
-        flash.Lib.getURL(_loc3_, "_new");
+        Lib.getURL(_loc3_, "_new");
     }
 
-    @:allow(resources_fla) function frame1():ASAny {
+    @:allow(resources_fla) function frame1() {
         this.buttonMode = true;
         this.addEventListener(MouseEvent.CLICK, this.clck);
     }

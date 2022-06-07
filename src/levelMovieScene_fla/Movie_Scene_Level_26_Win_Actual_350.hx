@@ -8,7 +8,7 @@ import openfl.*;
 import compat.*;
 
 
-/*dynamic*/ class Movie_Scene_Level_26_Win_actual_350 extends GfxMovieClip {
+/*dynamic*/ class Movie_Scene_Level_26_Win_Actual_350 extends GfxMovieClip {
 
 
     public var butt_end:GfxMovieClip;
@@ -30,23 +30,23 @@ addFrameScript(1, this.frame2);
 addFrameScript(0, this.frame1);
     }
 
-    @:allow(levelMovieScene_fla) function frame1():ASAny {
+    @:allow(levelMovieScene_fla) function frame1() {
         stop();
     }
 
-    @:allow(levelMovieScene_fla) function frame2():ASAny {
+    @:allow(levelMovieScene_fla) function frame2() {
         stop();
     }
 
-    @:allow(levelMovieScene_fla) function frame3():ASAny {
+    @:allow(levelMovieScene_fla) function frame3() {
         stop();
     }
 
-    @:allow(levelMovieScene_fla) function frame4():ASAny {
+    @:allow(levelMovieScene_fla) function frame4() {
         stop();
     }
 
-    @:allow(levelMovieScene_fla) function frame5():ASAny {
+    @:allow(levelMovieScene_fla) function frame5() {
         stop();
     }
 }

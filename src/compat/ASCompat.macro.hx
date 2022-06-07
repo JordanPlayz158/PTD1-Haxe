@@ -36,7 +36,7 @@ class ASCompat {
 		var ctReturn = macro : Null<flash.Vector<$elementType>>;
 		if (Context.defined("flash")) {
 			var eVectorClass = makeVectorTypeReference(elementType, typecheck.pos);
-			return macro @:pos(Context.currentPos()) (flash.Lib.as($value, $eVectorClass) : $ctReturn);
+			return macro @:pos(Context.currentPos()) (Lib.as($value, $eVectorClass) : $ctReturn);
 		} else {
 			return macro @:pos(Context.currentPos()) (ASCompat._asVector($value) : $ctReturn);
 		}

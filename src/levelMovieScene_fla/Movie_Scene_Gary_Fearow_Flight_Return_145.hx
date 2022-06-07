@@ -16,7 +16,7 @@ import compat.*;
         addFrameScript(20, this.frame21);
     }
 
-    @:allow(levelMovieScene_fla) function frame21():ASAny {
+    @:allow(levelMovieScene_fla) function frame21() {
         stop();
     }
 }

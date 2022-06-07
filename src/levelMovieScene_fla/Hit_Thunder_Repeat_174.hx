@@ -16,7 +16,7 @@ import compat.*;
         addFrameScript(10, this.frame11);
     }
 
-    @:allow(levelMovieScene_fla) function frame11():ASAny {
+    @:allow(levelMovieScene_fla) function frame11() {
         gotoAndPlay("loop");
     }
 }

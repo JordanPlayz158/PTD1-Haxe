@@ -77,11 +77,11 @@ class Class_898 extends _Obj implements Class_3 {
             return true;
         }
         if (this.gfx_BG.find_daily_butt && this.gfx_BG.find_daily_butt.contains(_loc2_)) {
-            flash.Lib.getURL(new URLRequest("http://samdangames.blogspot.com/p/mystery-gift.html"));
+            Lib.getURL(new URLRequest("http://samdangames.blogspot.com/p/mystery-gift.html"));
             return true;
         }
         if (this.gfx_BG.find_butt && this.gfx_BG.find_butt.contains(_loc2_)) {
-            flash.Lib.getURL(new URLRequest("http://samdangames.blogspot.com/p/mystery-gift.html"));
+            Lib.getURL(new URLRequest("http://samdangames.blogspot.com/p/mystery-gift.html"));
             return true;
         }
         if (this.gfx_BG.shiny_butt && this.gfx_BG.shiny_butt.contains(_loc2_)) {

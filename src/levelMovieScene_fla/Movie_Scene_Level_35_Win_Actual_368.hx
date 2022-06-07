@@ -8,7 +8,7 @@ import openfl.*;
 import compat.*;
 
 
-/*dynamic*/ class Movie_Scene_Level_35_Win_actual_368 extends GfxMovieClip {
+/*dynamic*/ class Movie_Scene_Level_35_Win_Actual_368 extends GfxMovieClip {
 
 
     public var butt_end:GfxMovieClip;
@@ -20,7 +20,7 @@ import compat.*;
         addFrameScript(0, this.frame1);
     }
 
-    @:allow(levelMovieScene_fla) function frame1():ASAny {
+    @:allow(levelMovieScene_fla) function frame1() {
         stop();
     }
 }

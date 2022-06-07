@@ -9,7 +9,7 @@ import compat.*;
 
 import flash.text.TextField;
 
-/*dynamic*/ class Focus_Evolve_actual_1412 extends GfxMovieClip {
+/*dynamic*/ class Focus_Evolve_Actual_1412 extends GfxMovieClip {
 
 
     public var gfx_Poke:GfxMovieClip;
@@ -25,7 +25,7 @@ import flash.text.TextField;
         addFrameScript(161, this.frame162);
     }
 
-    @:allow(resources_fla) function frame162():ASAny {
+    @:allow(resources_fla) function frame162() {
         stop();
     }
 }

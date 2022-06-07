@@ -59,7 +59,7 @@ class Class_897 extends _Obj implements Class_3 {
             return true;
         }
         if (this.gfx_BG.find_butt && this.gfx_BG.find_butt.contains(_loc2_)) {
-            flash.Lib.getURL(new URLRequest("http://www.playtowerdefensegames.com/games/1078/play.html?ptd"));
+            Lib.getURL(new URLRequest("http://www.playtowerdefensegames.com/games/1078/play.html?ptd"));
             return true;
         }
         return false;

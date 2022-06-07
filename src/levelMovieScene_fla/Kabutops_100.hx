@@ -19,19 +19,19 @@ addFrameScript(32, this.frame33);
 addFrameScript(16, this.frame17);
     }
 
-    @:allow(levelMovieScene_fla) function frame17():ASAny {
+    @:allow(levelMovieScene_fla) function frame17() {
         gotoAndPlay("front");
     }
 
-    @:allow(levelMovieScene_fla) function frame33():ASAny {
+    @:allow(levelMovieScene_fla) function frame33() {
         gotoAndPlay("left");
     }
 
-    @:allow(levelMovieScene_fla) function frame49():ASAny {
+    @:allow(levelMovieScene_fla) function frame49() {
         gotoAndPlay("back");
     }
 
-    @:allow(levelMovieScene_fla) function frame65():ASAny {
+    @:allow(levelMovieScene_fla) function frame65() {
         gotoAndPlay("right");
     }
 }

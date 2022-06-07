@@ -16,7 +16,7 @@ import compat.*;
         addFrameScript(107, this.frame108);
     }
 
-    @:allow(resources_fla) function frame108():ASAny {
+    @:allow(resources_fla) function frame108() {
         stop();
         cast(parent, GfxMovieClip).nextFrame();
     }

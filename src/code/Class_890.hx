@@ -236,7 +236,7 @@ class Class_890 extends _Obj implements Class_3 {
                 return true;
             }
             if (this.gfx_BG.password_butt && this.gfx_BG.password_butt.contains(_loc3_)) {
-                flash.Lib.getURL(new URLRequest("http://www.snd-storage.com/games/ptd/password.php"));
+                Lib.getURL(new URLRequest("http://www.snd-storage.com/games/ptd/password.php"));
                 return true;
             }
             if (this.gfx_BG.log_in_actual_butt && this.gfx_BG.log_in_actual_butt.contains(_loc3_)) {

@@ -8,7 +8,7 @@ import openfl.*;
 import compat.*;
 
 
-/*dynamic*/ class gfx_Attack_text_916 extends GfxMovieClip {
+/*dynamic*/ class Gfx_Attack_Text_916 extends GfxMovieClip {
 
 
     public function new() {
@@ -16,7 +16,7 @@ import compat.*;
         addFrameScript(0, this.frame1);
     }
 
-    @:allow(resources_fla) function frame1():ASAny {
+    @:allow(resources_fla) function frame1() {
         stop();
     }
 }

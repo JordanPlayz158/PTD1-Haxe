@@ -17,11 +17,11 @@ addFrameScript(10, this.frame11);
 addFrameScript(0, this.frame1);
     }
 
-    @:allow(resources_fla) function frame1():ASAny {
+    @:allow(resources_fla) function frame1() {
         stop();
     }
 
-    @:allow(resources_fla) function frame11():ASAny {
+    @:allow(resources_fla) function frame11() {
         stop();
     }
 }

@@ -23,7 +23,7 @@ import flash.text.TextField;
         addFrameScript(0, this.frame1);
     }
 
-    @:allow(resources_fla) function frame1():ASAny {
+    @:allow(resources_fla) function frame1() {
         stop();
     }
 }

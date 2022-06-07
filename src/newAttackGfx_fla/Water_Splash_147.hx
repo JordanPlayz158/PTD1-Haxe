@@ -16,7 +16,7 @@ import compat.*;
         addFrameScript(9, this.frame10);
     }
 
-    @:allow(newAttackGfx_fla) function frame10():ASAny {
+    @:allow(newAttackGfx_fla) function frame10() {
         stop();
     }
 }

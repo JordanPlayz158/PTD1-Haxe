@@ -61,7 +61,7 @@ class Class_896 extends _Obj implements Class_3 {
             return true;
         }
         if (this.gfx_BG.select_butt && this.gfx_BG.select_butt.contains(_loc2_)) {
-            flash.Lib.getURL(new URLRequest("http://www.sndgames.com/games/ptd/trading.php"));
+            Lib.getURL(new URLRequest("http://www.sndgames.com/games/ptd/trading.php"));
             send_Msg(["change_Screen", new Class_876(my_Parent)]);
             return true;
         }

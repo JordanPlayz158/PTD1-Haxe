@@ -4,6 +4,7 @@ import haxe.macro.Expr;
 #end
 
 import haxe.Constraints.Function;
+import openfl.Lib;
 
 class ASCompat {
 	public static inline final MAX_INT = 2147483647;
@@ -42,7 +43,7 @@ class ASCompat {
 
 	#if flash
 	public static inline function describeType(value:Any):compat.XML {
-		return flash.Lib.describeType(value);
+		return Lib.describeType(value);
 	}
 
 	// classObject is Any and not Class<Dynamic>, because in Flash we also want to pass Bool to it
@@ -89,15 +90,15 @@ class ASCompat {
 	}
 
 	public static inline function as<T>(v:Dynamic, c:Class<T>):T {
-		return flash.Lib.as(v, c);
+		return Lib.as(v, c);
 	}
 
 	public static inline function dynamicAs<T>(v:Dynamic, c:Class<T>):T {
-		return flash.Lib.as(v, c);
+		return Lib.as(v, c);
 	}
 
 	public static inline function reinterpretAs<T>(v:Dynamic, c:Class<T>):T {
-		return flash.Lib.as(v, c);
+		return Lib.as(v, c);
 	}
 
 	public static inline function toExponential(n:Float, ?digits:Int):String {

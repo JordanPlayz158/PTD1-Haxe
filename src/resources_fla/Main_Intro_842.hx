@@ -25,7 +25,7 @@ import flash.display.SimpleButton;
         addFrameScript(311, this.frame312);
     }
 
-    @:allow(resources_fla) function frame312():ASAny {
+    @:allow(resources_fla) function frame312() {
         stop();
     }
 }

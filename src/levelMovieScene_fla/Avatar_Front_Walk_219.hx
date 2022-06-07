@@ -50,143 +50,143 @@ addFrameScript(47, this.frame48);
 addFrameScript(23, this.frame24);
     }
 
-    @:allow(levelMovieScene_fla) function frame24():ASAny {
+    @:allow(levelMovieScene_fla) function frame24() {
         gotoAndPlay("boy_1");
     }
 
-    @:allow(levelMovieScene_fla) function frame48():ASAny {
+    @:allow(levelMovieScene_fla) function frame48() {
         gotoAndPlay("boy_6");
     }
 
-    @:allow(levelMovieScene_fla) function frame72():ASAny {
+    @:allow(levelMovieScene_fla) function frame72() {
         gotoAndPlay("boy_2");
     }
 
-    @:allow(levelMovieScene_fla) function frame96():ASAny {
+    @:allow(levelMovieScene_fla) function frame96() {
         gotoAndPlay("boy_3");
     }
 
-    @:allow(levelMovieScene_fla) function frame120():ASAny {
+    @:allow(levelMovieScene_fla) function frame120() {
         gotoAndPlay("boy_4");
     }
 
-    @:allow(levelMovieScene_fla) function frame144():ASAny {
+    @:allow(levelMovieScene_fla) function frame144() {
         gotoAndPlay("girl_1");
     }
 
-    @:allow(levelMovieScene_fla) function frame168():ASAny {
+    @:allow(levelMovieScene_fla) function frame168() {
         gotoAndPlay("girl_2");
     }
 
-    @:allow(levelMovieScene_fla) function frame192():ASAny {
+    @:allow(levelMovieScene_fla) function frame192() {
         gotoAndPlay("girl_3");
     }
 
-    @:allow(levelMovieScene_fla) function frame216():ASAny {
+    @:allow(levelMovieScene_fla) function frame216() {
         gotoAndPlay("girl_4");
     }
 
-    @:allow(levelMovieScene_fla) function frame240():ASAny {
+    @:allow(levelMovieScene_fla) function frame240() {
         gotoAndPlay("boy_5");
     }
 
-    @:allow(levelMovieScene_fla) function frame264():ASAny {
+    @:allow(levelMovieScene_fla) function frame264() {
         gotoAndPlay("girl_5");
     }
 
-    @:allow(levelMovieScene_fla) function frame288():ASAny {
+    @:allow(levelMovieScene_fla) function frame288() {
         gotoAndPlay("girl_6");
     }
 
-    @:allow(levelMovieScene_fla) function frame312():ASAny {
+    @:allow(levelMovieScene_fla) function frame312() {
         gotoAndPlay("boy_7");
     }
 
-    @:allow(levelMovieScene_fla) function frame336():ASAny {
+    @:allow(levelMovieScene_fla) function frame336() {
         gotoAndPlay("girl_7");
     }
 
-    @:allow(levelMovieScene_fla) function frame360():ASAny {
+    @:allow(levelMovieScene_fla) function frame360() {
         gotoAndPlay("boy_8");
     }
 
-    @:allow(levelMovieScene_fla) function frame384():ASAny {
+    @:allow(levelMovieScene_fla) function frame384() {
         gotoAndPlay("girl_8");
     }
 
-    @:allow(levelMovieScene_fla) function frame408():ASAny {
+    @:allow(levelMovieScene_fla) function frame408() {
         gotoAndPlay("boy_9");
     }
 
-    @:allow(levelMovieScene_fla) function frame432():ASAny {
+    @:allow(levelMovieScene_fla) function frame432() {
         gotoAndPlay("boy_10");
     }
 
-    @:allow(levelMovieScene_fla) function frame456():ASAny {
+    @:allow(levelMovieScene_fla) function frame456() {
         gotoAndPlay("girl_10");
     }
 
-    @:allow(levelMovieScene_fla) function frame480():ASAny {
+    @:allow(levelMovieScene_fla) function frame480() {
         gotoAndPlay("boy_11");
     }
 
-    @:allow(levelMovieScene_fla) function frame504():ASAny {
+    @:allow(levelMovieScene_fla) function frame504() {
         gotoAndPlay("girl_11");
     }
 
-    @:allow(levelMovieScene_fla) function frame528():ASAny {
+    @:allow(levelMovieScene_fla) function frame528() {
         gotoAndPlay("boy_12");
     }
 
-    @:allow(levelMovieScene_fla) function frame552():ASAny {
+    @:allow(levelMovieScene_fla) function frame552() {
         gotoAndPlay("boy_13");
     }
 
-    @:allow(levelMovieScene_fla) function frame576():ASAny {
+    @:allow(levelMovieScene_fla) function frame576() {
         gotoAndPlay("girl_13");
     }
 
-    @:allow(levelMovieScene_fla) function frame600():ASAny {
+    @:allow(levelMovieScene_fla) function frame600() {
         gotoAndPlay("boy_14");
     }
 
-    @:allow(levelMovieScene_fla) function frame624():ASAny {
+    @:allow(levelMovieScene_fla) function frame624() {
         gotoAndPlay("girl_14");
     }
 
-    @:allow(levelMovieScene_fla) function frame648():ASAny {
+    @:allow(levelMovieScene_fla) function frame648() {
         gotoAndPlay("boy_15");
     }
 
-    @:allow(levelMovieScene_fla) function frame672():ASAny {
+    @:allow(levelMovieScene_fla) function frame672() {
         gotoAndPlay("boy_16");
     }
 
-    @:allow(levelMovieScene_fla) function frame696():ASAny {
+    @:allow(levelMovieScene_fla) function frame696() {
         gotoAndPlay("girl_16");
     }
 
-    @:allow(levelMovieScene_fla) function frame720():ASAny {
+    @:allow(levelMovieScene_fla) function frame720() {
         gotoAndPlay("boy_17");
     }
 
-    @:allow(levelMovieScene_fla) function frame744():ASAny {
+    @:allow(levelMovieScene_fla) function frame744() {
         gotoAndPlay("girl_17");
     }
 
-    @:allow(levelMovieScene_fla) function frame768():ASAny {
+    @:allow(levelMovieScene_fla) function frame768() {
         gotoAndPlay("boy_18");
     }
 
-    @:allow(levelMovieScene_fla) function frame792():ASAny {
+    @:allow(levelMovieScene_fla) function frame792() {
         gotoAndPlay("girl_18");
     }
 
-    @:allow(levelMovieScene_fla) function frame816():ASAny {
+    @:allow(levelMovieScene_fla) function frame816() {
         gotoAndPlay("boy_19");
     }
 
-    @:allow(levelMovieScene_fla) function frame840():ASAny {
+    @:allow(levelMovieScene_fla) function frame840() {
         gotoAndPlay("girl_19");
     }
 }

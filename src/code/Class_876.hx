@@ -110,7 +110,7 @@ class Class_876 extends _Obj {
                     _loc2_ = new Class_889(my_Parent);
                 }
                 else if (this.gfx_BG.titleScreen.btn_feedback && this.gfx_BG.titleScreen.btn_feedback == _loc3_) {
-                    flash.Lib.getURL(new URLRequest("http://samdangames.blogspot.com/"));
+                    Lib.getURL(new URLRequest("http://samdangames.blogspot.com/"));
                     return true;
                 }
             }
@@ -124,18 +124,18 @@ class Class_876 extends _Obj {
             }
             else {
                 if (this.gfx_BG.blog_butt && this.gfx_BG.blog_butt.contains(_loc4_)) {
-                    flash.Lib.getURL(new URLRequest("http://samdangames.blogspot.com/"));
+                    Lib.getURL(new URLRequest("http://samdangames.blogspot.com/"));
                     return true;
                 }
                 if (this.gfx_BG.fwg_link && this.gfx_BG.fwg_link.contains(_loc4_)) {
-                    flash.Lib.getURL(new URLRequest("http://www.freeworldgroup.com"));
+                    Lib.getURL(new URLRequest("http://www.freeworldgroup.com"));
                     return true;
                 }
                 if (this.gfx_BG.options_butt && this.gfx_BG.options_butt.contains(_loc4_)) {
                     _loc2_ = new Class_889(my_Parent);
                 }
                 else if (this.gfx_BG.titleScreen.mysteryCode && this.gfx_BG.titleScreen.mysteryCode.contains(_loc4_)) {
-                    flash.Lib.getURL(new URLRequest("http://samdangames.blogspot.com/p/mystery-gift.html"));
+                    Lib.getURL(new URLRequest("http://samdangames.blogspot.com/p/mystery-gift.html"));
                     return true;
                 }
             }

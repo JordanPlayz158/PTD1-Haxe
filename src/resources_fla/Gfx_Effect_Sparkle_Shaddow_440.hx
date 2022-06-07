@@ -16,7 +16,7 @@ import compat.*;
         addFrameScript(10, this.frame11);
     }
 
-    @:allow(resources_fla) function frame11():ASAny {
+    @:allow(resources_fla) function frame11() {
         stop();
     }
 }
