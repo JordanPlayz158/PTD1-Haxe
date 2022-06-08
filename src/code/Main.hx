@@ -237,7 +237,12 @@ class Main extends _Obj {
 
     public function new() {
         for(k in Assets.getLibraryBindings().keys()) {
-            //trace("Binding " + k);
+            // Yields moving sprite
+            Assets.initBinding(k, null);
+
+            // I feel like this is more correct but somehow it yields
+            // less results (a white screen as opposed to moving sprite)
+            /*//trace("Binding " + k);
 
             try {
                 var kClass = Type.createInstance(Type.resolveClass(k), null);
@@ -247,7 +252,8 @@ class Main extends _Obj {
                 //trace(k + " Successfully bound");
             } catch (ignored) {
                 trace("Binding for " + k + " failed");
-            }
+                Assets.initBinding(k, null);
+            }*/
         }
 
         super(null);
