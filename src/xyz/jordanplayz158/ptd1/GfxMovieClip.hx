@@ -167,6 +167,6 @@ class GfxMovieClip extends MovieClip {
 
     public function new() {
         super();
-        //trace(this);
+        trace(this);
     }
 }

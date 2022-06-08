@@ -238,11 +238,11 @@ class Main extends _Obj {
     public function new() {
         for(k in Assets.getLibraryBindings().keys()) {
             // Yields moving sprite
-            Assets.initBinding(k, null);
+            //Assets.initBinding(k, null);
 
             // I feel like this is more correct but somehow it yields
             // less results (a white screen as opposed to moving sprite)
-            /*//trace("Binding " + k);
+            //trace("Binding " + k);
 
             try {
                 var kClass = Type.createInstance(Type.resolveClass(k), null);
@@ -253,16 +253,20 @@ class Main extends _Obj {
             } catch (ignored) {
                 trace("Binding for " + k + " failed");
                 Assets.initBinding(k, null);
-            }*/
+            }
         }
 
         super(null);
         this.sponsor = this.method_359();
         this.method_369();
         this.method_377();
+
+        stage.color = 0;
+
         this.var_213 = new Class_876(this);
         this.sawDisclamer = true;
         addChildAt(this.var_213, 0);
+
         trace("Main reached end of initialization");
     }
 
